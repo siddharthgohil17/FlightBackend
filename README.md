@@ -18,4 +18,13 @@
     }
 once you've added your  db config as listed above, go to src folder from your terminal and execute `npx sequilize db:create`
      
-  
+ ##DB Design 
+
+  -Airplane Table
+  -Flight
+  -Airport
+  -City
+
+  -airplane--(1:N)--Flight
+  -Flight--(1:N)--Airport
+  Airport--(1:N)--City
